@@ -1,0 +1,161 @@
+/*Icones*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+:root{
+    --cor-principal:#ac1a0dec;
+    --cor-segundaria:#A30E00;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color:rgba(250, 244, 244, 0.747);
+}
+/*Menu*/
+header, .navbar{
+    background-color:black;
+    padding: 1%;
+}
+.navbar{
+    text-align: center;
+}
+.navbar a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 40px;
+    color: #fff;
+}
+
+.nav-item{
+    margin: 0 40px;
+    text-decoration: none;
+}
+.nav-item:hover{
+    transition: .7s;
+    color: var(--cor-segundaria);
+}
+/*Banner*/
+.banner-area{
+    background-image: url(#);
+    text-align: center;
+    width: 100%;
+}
+.banner-area h1{
+    font-family: 'Norican', cursive;
+    font-size: 50px;
+    color: #000;
+    margin-top: 5%; ;
+}
+/*Sobre*/
+#main-title{
+    font-family:'Fleur De Leah' ;
+    font-size: 40px;
+    color: var(--cor-principal);
+    text-align: center;
+    margin-top:15% ;
+}
+.img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.about-title{
+    width:52%;
+    text-align: center;
+    text-indent: 10px;
+    margin: auto;
+}
+
+/*Galeria*/
+.main-title{
+    text-align: center;
+    margin-top: 5%;
+}
+#galeria-area h3{
+    font-family: 'Norican', cursive;
+    font-size: 35px;
+}
+.container-galeria{
+    width: 780px;
+    height: auto;
+    margin: 100px auto;
+}
+.container-galeria label{
+    width: 175px;
+    padding: 20px 10px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    background-color: #000;
+    color:#fff;
+}
+#galeria img{
+    float: left;
+    width: 250px;
+    padding: 5px;
+    transition: all .4s;
+}
+.container-galeria input:checked + label{
+    background-color: var(--cor-principal);
+}
+.container-galeria input{
+    display: none;
+}
+
+/*filtro*/
+#bt_tatuagens:checked ~ #galeria .micro,
+#bt_tatuagens:checked ~ #galeria .decalques{
+    opacity: .4;
+    transform: scale(0.5);
+}
+#bt_micro:checked ~ #galeria .tatuagens,
+#bt_micro:checked ~ #galeria .decalques{
+    opacity: .4;
+    transform: scale(0.5);
+}
+#bt_decalque:checked ~ #galeria .tatuagens,
+#bt_decalque:checked ~ #galeria .micro{
+    opacity: .4;
+    transform: scale(0.5);
+}
+/*Contato*/
+.contato-titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-top:40% ;
+}
+
+.flex{
+    display: flex;
+}
+.contato-box{
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+}
+.contato-box i {
+    font-size: 40px;
+    margin-bottom: 2%;
+    color: var(--cor-segundaria);
+}
+/*Local*/
+.titulo{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 30px;
+}
+.mapa{
+    max-width: 100%;
+    text-align: center;
+}
+.text-mapa{
+    text-align: center;
+    font-size: 25px;
+    text-transform:bold ;
+}
