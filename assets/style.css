@@ -4,6 +4,7 @@
 :root{
     --cor-principal:#ac1a0dec;
     --cor-segundaria:#A30E00;
+    --var-terciaria:rgb(248, 213, 213);
     scroll-behavior: smooth;
 }
 
@@ -27,13 +28,14 @@ header, .navbar{
 .navbar a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    padding: 40px;
+    padding: 50px;
     color: #fff;
 }
 
 .nav-item{
-    margin: 0 40px;
+    margin: 0 50px;
     text-decoration: none;
+    text-align: center;
 }
 .nav-item:hover{
     transition: .7s;
@@ -59,16 +61,16 @@ header, .navbar{
     text-align: center;
     margin-top:15% ;
 }
-.img{
+.imagem-artista{
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
 }
 .about-title{
-    width:52%;
-    text-align: center;
-    text-indent: 10px;
+    width:70%;
     margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /*Galeria*/
@@ -77,7 +79,6 @@ header, .navbar{
     margin-top: 5%;
 }
 #galeria-area h3{
-    font-family: 'Norican', cursive;
     font-size: 35px;
 }
 .container-galeria{
@@ -124,11 +125,44 @@ header, .navbar{
     opacity: .4;
     transform: scale(0.5);
 }
-/*Contato*/
-.contato-titulo {
+/*Duvidas*/
+#duvidas-area{
+    padding-top: 70%;
+    
+}
+#titulo-duvidas{
     text-align: center;
     font-size: 30px;
-    margin-top:80% ;
+}
+.text-perguntas{
+    margin-top: 5%;
+    background-color: var(--var-terciaria);
+    
+}
+.text-perguntas h3{
+    text-align:center;
+    margin-bottom: 5%;
+}
+.titulo-perguntas{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.res{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+/*cuidados*/
+.titulo-cuidados{
+    margin-top: 4%;
+}
+/*Contato*/
+#contato-area{
+    margin-top:10% ;
+}
+.contato-titulo {
+    text-align: center;
+    font-size: 25px;
 }
 
 .flex{
@@ -148,8 +182,9 @@ header, .navbar{
 .titulo{
     margin-top: 15%;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
+
 .mapa{
     max-width: 100%;
     text-align: center;
@@ -158,4 +193,67 @@ header, .navbar{
     text-align: center;
     font-size: 25px;
     text-transform:bold ;
+}
+/*resposivo*/
+@media(max-width:768px){
+    header, .navbar{
+        width: 98%;
+        margin-left:0;
+        padding-left: 0;
+        border: 0;
+    }
+    .nav-item {
+        margin: 0 5px;
+        
+    }
+    .navbar-area a{
+        font-size: 16px;
+    }
+    .about-title{
+        width: 90%;
+        margin: 1px auto;
+        margin-top: 10%;
+    }
+    .container-galeria label{
+        font-size: 15px;
+        width: 170px;
+    }
+   
+   #galeria img{
+        padding:2px ;
+    }
+    .contato-titulo{
+        margin-top: 110%;
+    }
+    .contato-box{
+        margin-top: 5%;
+        margin: 3%;
+        text-align: center;
+    }
+    .flex{
+        margin-top: 5%;
+    }
+    .contato-box i{
+        font-size: 30px;
+    }
+    .contato-box h3{
+        text-align: center;
+        font-size: 16px;
+    }
+    .contato-box p {
+        font-size: 10px;
+    }
+    .mapgoogle {
+        width: 750px;
+        height: 600px;
+    }
+} 
+
+@media(max-width:1440px){
+    .navbar a{
+        padding: 20px;
+    }
+    .mapgoogle{
+        width: 1290px;
+    }
 }
