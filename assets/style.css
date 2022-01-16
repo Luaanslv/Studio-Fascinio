@@ -3,7 +3,7 @@
 
 :root{
     --cor-principal:#ac1a0dec;
-    --cor-segundaria:#A30E00;
+    --cor-segundaria:#df7b72cb;
     --var-terciaria:rgb(248, 213, 213);
     scroll-behavior: smooth;
 }
@@ -55,8 +55,7 @@ header, .navbar{
 }
 /*Sobre*/
 #main-title{
-    font-family:'Fleur De Leah' ;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--cor-principal);
     text-align: center;
     margin-top:15% ;
@@ -79,7 +78,7 @@ header, .navbar{
     margin-top: 5%;
 }
 #galeria-area h3{
-    font-size: 35px;
+    font-size: 25px;
 }
 .container-galeria{
     width: 780px;
@@ -136,7 +135,7 @@ header, .navbar{
 }
 .text-perguntas{
     margin-top: 5%;
-    background-color: var(--var-terciaria);
+    
     
 }
 .text-perguntas h3{
@@ -152,10 +151,45 @@ header, .navbar{
     margin-left: 3%;
 }
 
-/*cuidados*/
+/*duvidas e cuidados*/
 .titulo-cuidados{
     margin-top: 4%;
 }
+#microo{
+    display: none;
+}
+
+#aparecer{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 46%;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+#aparecer:hover{
+    background-color: var(--cor-segundaria);
+}
+#aparecer2{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 46%;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+#aparecer2:hover{
+    background-color: var(--cor-segundaria);
+}
+#tatuagem-area{
+    display: none;
+}
+hr{
+    margin-top: 5%;
+}
+
 /*Contato*/
 #contato-area{
     margin-top:10% ;
@@ -163,6 +197,7 @@ header, .navbar{
 .contato-titulo {
     text-align: center;
     font-size: 25px;
+    margin-top: 1%;
 }
 
 .flex{
@@ -171,18 +206,20 @@ header, .navbar{
 .contato-box{
     text-align: center;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 10%;
 }
 .contato-box i {
     font-size: 40px;
     margin-bottom: 2%;
-    color: var(--cor-segundaria);
+    color: var(--cor-principal);
 }
+
 /*Local*/
 .titulo{
     margin-top: 15%;
     text-align: center;
     font-size: 20px;
+    margin-bottom: 1%;
 }
 
 .mapa{
