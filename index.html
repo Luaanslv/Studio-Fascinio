@@ -19,7 +19,8 @@
             <!--Menu-->
             <nav class="navbar">
                     <div class="navbar-area">
-                        <a href="#main-title" class="nav-item ">Artista</a>
+                        <a href="#home" class="nav-item ">Home</a>
+                        <a href="#about-area" class="nav-item ">Artista</a>
                         <a href="#galeria-area" class="nav-item ">Galeria de fotos</a>
                         <a href="#titulo-duvidas" class="nav-item ">Duvidas</a>
                         <a href="#contato-area" class="nav-item">Fale comigo</a> 
@@ -30,18 +31,18 @@
     </header>
     <main>
         <!--Banner-->
-        <div class="banner-area">
+        <div class="banner-area" id="home">
             <h1>Studio Fascinio</h1>
         </div>
         <!--sobre a Artista-->
-        <div class="about-area">
+        <div id="about-area">
             <div class="container">
                 <div class="row">
                     <div class="titulo-sobre">
                         <h2 id="main-title">Gabrielli Santos</h2>
                     </div>
                     <div class="imagem-artista">
-                        <img src="#" alt="Artista">
+                        <img src="assets/imagens/artista.jpeg" alt="Artista">
                     </div>
                     <div class="texto-area">
                         <p class="about-title">Sou tatuadora e micropigmentadora. Faço tatuagens de todos os tipos, micropigmentação de sombrancelhas e labial. Em busca de te vender autoestima. Sua história pintada em sua pele em forma de arte, por um profissional.</p>
@@ -57,25 +58,25 @@
                 <label for="bt_todos">Todos</label>
                 <input type="radio" name="bt" id="bt_tatuagens">
                 <label for="bt_tatuagens">Tatuagens</label>
-                <input type="radio" name="bt" id="bt_decalque">
-                <label for="bt_decalque">Decalques</label>
                 <input type="radio" name="bt" id="bt_micro">
                 <label for="bt_micro">Micropigmentações</label>
                 <div id="galeria">
                     <img src="assets/imagens/Tatuagem1.jpg" alt="1" class="tatuagens">
                     <img src="assets/imagens/tatuagem2.jpg" alt="2" class="tatuagens">
                     <img src="assets/imagens/tatuagem3.jpg" alt="3" class="tatuagens">
+                    <img src="assets/imagens/tatuagem9.jpeg" alt="9" class="tatuagens">
+                    <img src="assets/imagens/tatuagem5.jpeg" alt="5" class="tatuagens"> 
+                    <img src="assets/imagens/tatuagem10.1.jpeg" alt="10" class="tatuagens">
+                    <img src="assets/imagens/tatuagem14.jpeg" alt="14" class="tatuagens">
+                    <img src="assets/imagens/tatuagem7.jpeg" alt="7" class="tatuagens">
+                    <img src="assets/imagens/tatuagem13.jpeg" alt="13" class="tatuagens">
+                    <img src="assets/imagens/tatuagem8.jpeg" alt="8" class="tatuagens">
+                    <img src="assets/imagens/tatuagem12.jpeg" alt="12" class="tatuagens">
+                    <img src="assets/imagens/tatuagem11.jpeg" alt="11" class="tatuagens">
                     <img src="assets/imagens/tatuagem4.jpg" alt="4" class="tatuagens">
-                    <img src="#" alt="5" class="tatuagens">
-                    <img src="#" alt="6" class="micro">
-                    <img src="#" alt="7" class="tatuagens">
-                    <img src="#" alt="8" class="decalques">
-                    <img src="#" alt="9" class="micro">
-                    <img src="#" alt="10" class="decalques">
-                    <img src="#" alt="11" class="decalques">
-                    <img src="#" alt="12" class="tatuagens">
-                    <img src="#" alt="13" class="micro">
-                    <img src="#" alt="14" class="decalques">
+                    <img src="assets/imagens/tatuagem6.jpeg" alt="6" class="tatuagens">
+                    <img src="assets/imagens/micro1.jpeg" alt="2" class="micro">
+                    <img src="assets/imagens/tatuagem15.jpeg" alt="15" class="tatuagens">
                 </div>
             </div>
         </div>
@@ -171,8 +172,21 @@
             </div>
             <div class="area-pagamentos">
                 <div class="container">
-                    <h5>Meios de pagamentos</h5>
+                    <h5 class="titulo-pagamentos">Meios de pagamentos</h5>
                 </div>
+                <div class="pagamentos">
+                    <div class="cartao">
+                        <i class="fas fa-credit-card"></i>
+                        <p>Aceitamos cartão de credito com as principais bandeiras do mercado.</p>
+                    </div>
+                    <div class="pix">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <p>Pagamentos via pix, o seu pagamento cai quase na mesma hora.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="direitos">
+                <p>Copyright &#0169 2022. Created by <a href="https://www.linkedin.com/in/luan-da-silva-7b08aa216/">Luan</a> </p>
             </div>
         </footer>
     
