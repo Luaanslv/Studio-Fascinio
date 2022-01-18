@@ -127,9 +127,26 @@ header, .navbar{
     opacity: .4;
     transform: scale(0.5);
 }
+/*videos*/
+.titulo-video{
+    margin-top: 120%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+.videos{
+    margin:auto;
+    margin-left: 16%;
+}
+.video1{
+    padding: 1%;
+}
+.video2{
+    padding: 1%;
+}
 /*Duvidas*/
 #duvidas-area{
-    padding-top: 150%;
+    padding-top: 10%;
     
 }
 #titulo-duvidas{
@@ -137,9 +154,7 @@ header, .navbar{
     font-size: 30px;
 }
 .text-perguntas{
-    margin-top: 5%;
-    
-    
+    margin-top: 5%;  
 }
 .text-perguntas h3{
     text-align:center;
@@ -147,7 +162,7 @@ header, .navbar{
 }
 .titulo-perguntas{
     margin-top: 1%;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 .res{
     margin-top: 1%;
