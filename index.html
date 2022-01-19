@@ -17,18 +17,20 @@
     <header>
         <div class="container">
             <!--Menu-->
-            <nav class="navbar">
-                    <div class="navbar-area">
-                        <a href="#home" class="nav-item ">Home</a>
-                        <a href="#about-area" class="nav-item ">Artista</a>
-                        <a href="#galeria-area" class="nav-item ">Galeria de fotos</a>
-                        <a href="#vds" class="nav-item ">Videos</a>
-                        <a href="#titulo-duvidas" class="nav-item ">Duvidas</a>
-                        <a href="#contato-area" class="nav-item">Fale comigo</a> 
-                        <a href="#local-area" class="nav-item ">Local</a>
-                    </div>   
-            </nav>
-        </div>        
+            <div class="navbar-area">
+                <nav class="navbar">
+                    <div class="menu-mobile"><button class="hamburguer" onclick="acao">&#9776;</button></div>
+                    <ul>
+                        <li><a href="#home" class="nav-item active ">Home</a></li>
+                        <li><a href="#about-area" class="nav-item ">Artista</a></li>
+                        <li><a href="#galeria-area" class="nav-item ">Galeria de fotos</a></li>
+                        <li><a href="#vds" class="nav-item ">Videos</a></li>
+                        <li><a href="#titulo-duvidas" class="nav-item ">Duvidas</a></li>
+                        <li><a href="#contato-area" class="nav-item">Fale comigo</a></li>
+                        <li><a href="#local-area" class="nav-item ">Local</a></li>
+                    </ul> 
+                </nav>
+            </div>        
     </header>
     <main>
         <!--Banner-->
@@ -64,7 +66,7 @@
                 <div id="galeria">
                     <img src="assets/imagens/Tatuagem1.jpg" alt="1" class="tatuagens" loading = "lazy">
                     <img src="assets/imagens/tatuagem2.jpg" alt="2" class="tatuagens" loading = "lazy">
-                    <img src="assets/imagens/tatuagem3.jpg" alt="3" class="tatuagens" loading = "lazy">
+                    <img src="assets/imagens/tatuagem6.jpeg" alt="6" class="tatuagens" loading = "lazy">
                     <img src="assets/imagens/tatuagem9.jpeg" alt="9" class="tatuagens" loading = "lazy">
                     <img src="assets/imagens/tatuagem5.jpeg" alt="5" class="tatuagens" loading = "lazy"> 
                     <img src="assets/imagens/tatuagem10.1.jpeg" alt="10" class="tatuagens" loading = "lazy">
@@ -74,8 +76,8 @@
                     <img src="assets/imagens/tatuagem8.jpeg" alt="8" class="tatuagens" loading = "lazy">
                     <img src="assets/imagens/tatuagem12.jpeg" alt="12" class="tatuagens" loading = "lazy">
                     <img src="assets/imagens/tatuagem11.jpeg" alt="11" class="tatuagens" loading = "lazy">
+                    <img src="assets/imagens/tatuagem3.jpg" alt="3" class="tatuagens" loading = "lazy"> 
                     <img src="assets/imagens/tatuagem4.jpg" alt="4" class="tatuagens" loading = "lazy">
-                    <img src="assets/imagens/tatuagem6.jpeg" alt="6" class="tatuagens" loading = "lazy">
                     <img src="assets/imagens/micro1.jpeg" alt="2" class="micro" loading = "lazy">
                     <img src="assets/imagens/tatuagem15.jpeg" alt="15" class="tatuagens" loading = "lazy">
                 </div>
@@ -86,8 +88,8 @@
             <div class="container">
                 <h3 class="titulo-video" id="vds">Videos</h3>
                 <div class="videos">
-                    <iframe width="600" height="300" src="https://www.youtube.com/embed/DnutGkpw4fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1"></iframe>
-                    <iframe width="600" height="300" src="https://www.youtube.com/embed/VXaofcjdPOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video2"></iframe>
+                    <iframe width="2500" height="1500" src="https://www.youtube.com/embed/DnutGkpw4fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="2500" height="1500" src="https://www.youtube.com/embed/VXaofcjdPOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -178,9 +180,10 @@
                     <p class="text-mapa">Rua professor irineu chalupe,nº514</p>
                 </div>
                 <div class="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.557573711582!2d-46.931112485050214!3d-23.548410066999157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf069171fdd963%3A0xbe0e4a3ae9d30210!2sRua%20Professor%20Irineu%20Chaluppe%2C%20514%20-%20Jardim%20Itapevi%2C%20Itapevi%20-%20SP%2C%2006653-180!5e0!3m2!1spt-BR!2sbr!4v1642222323584!5m2!1spt-BR!2sbr" width="1699" height="500" style="border:0;" allowfullscreen="" loading="lazy" class="mapgoogle"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.557573711582!2d-46.931112485050214!3d-23.548410066999157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf069171fdd963%3A0xbe0e4a3ae9d30210!2sRua%20Professor%20Irineu%20Chaluppe%2C%20514%20-%20Jardim%20Itapevi%2C%20Itapevi%20-%20SP%2C%2006653-180!5e0!3m2!1spt-BR!2sbr!4v1642552587892!5m2!1spt-BR!2sbr" width="6000" height="3000" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
+            <!--pagamento-->
             <div class="area-pagamentos">
                 <div class="container">
                     <h5 class="titulo-pagamentos">Meios de pagamentos</h5>

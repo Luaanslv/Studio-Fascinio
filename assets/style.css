@@ -3,7 +3,7 @@
 
 :root{
     --cor-principal:#ac1a0dec;
-    --cor-segundaria:#df7b72cb;
+    --cor-segundaria:#eba39cdc;
     --var-terciaria:rgb(248, 213, 213);
     scroll-behavior: smooth;
 }
@@ -12,85 +12,108 @@
     margin: 0;
     padding: 0%;
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
 }
 
 body{
     background-color:rgba(250, 244, 244, 0.747);
 }
 /*Menu*/
-header, .navbar{
-    background-color:black;
+.navbar{
+    height: 100px;
     width: 100%;
+    background-color:#000;
     position: fixed;
 }
-.navbar{
+nav ul {
     text-align: center;
+    font-size: 100px ;
+    list-style: none;
+    margin-right:100px ;
 }
-.navbar a{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 50px;
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.nav-item{
     color: #fff;
+    text-transform: uppercase;
+}
+.hamburguer{
+    background-color: transparent;
+    color: white;
+    font-size: 200px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 85px;
+    cursor: pointer;
+    display: none;
 }
 
-.nav-item{
-    margin: 0 40px;
-    text-decoration: none;
-    text-align: center;
-}
-.nav-item:hover{
-    transition: .7s;
-    color: var(--cor-segundaria);
-}
 /*Banner*/
 .banner-area{
     background-image: url(imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
     margin: auto;
     text-align: center;
-    width: 100%;
-    height: 521px;
+    height: 1200px;
+    background-size:100%;
 }
 .banner-area h1{
     font-family: 'Norican', cursive;
-    font-size: 70px;
+    font-size: 300px;
     color: var(--cor-principal);
-    padding-top:15%;
+    padding-top:4%;
 }
 /*Sobre*/
 #main-title{
-    font-size: 30px;
+    font-size: 100px;
     color: #000;
     text-align: center;
-    margin-top:10% ;
+    margin-top:5% ;
 }
 .imagem-artista{
     margin-top: 5%;
     margin-bottom: 5%;
-    text-align: center;
+    width: 100%;
+    text-align: left;
+    margin-left: 20%;
 }
 .about-title{
-    width:70%;
+    width:40%;
     margin: auto;
+    margin-left: 35%;
+    margin-top: -14%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: 60px;
     text-align: justify;
     text-justify: inter-word;
 }
 
 /*Galeria*/
 .main-title{
-    text-align: center;
-    margin-top: 5%;
+    text-align: start;
+    margin-right: 5%;
+    margin-top: 15%;
 }
 #galeria-area h3{
-    font-size: 25px;
+    font-size: 100px;
+    text-align: center;
 }
 .container-galeria{
-    width: 780px;
+    width: 3000px;
     height: auto;
-    margin: 100px auto;
+    margin: 800px auto;
 }
 .container-galeria label{
-    width: 238px;
-    padding: 20px 10px;
+    width: 790px;
+    padding: 30px 10px;
+    font-size: 70px;
     display: block;
     float: left;
     cursor: pointer;
@@ -100,7 +123,7 @@ header, .navbar{
 }
 #galeria img{
     float: left;
-    width: 250px;
+    width: 800px;
     padding: 5px;
     transition: all .4s;
 }
@@ -129,21 +152,16 @@ header, .navbar{
 }
 /*videos*/
 .titulo-video{
-    margin-top: 120%;
+    margin-top: 95%;
     margin-bottom: 10%;
     text-align: center;
-    font-size: 30px;
+    font-size: 100px;
 }
 .videos{
     margin:auto;
-    margin-left: 16%;
+    margin-left: 17%;
 }
-.video1{
-    padding: 1%;
-}
-.video2{
-    padding: 1%;
-}
+
 /*Duvidas*/
 #duvidas-area{
     padding-top: 10%;
@@ -151,22 +169,29 @@ header, .navbar{
 }
 #titulo-duvidas{
     text-align: center;
-    font-size: 30px;
+    font-size: 100px;
 }
 .text-perguntas{
-    margin-top: 5%;  
+    margin-top: 5%;
+    margin: auto;  
+    
 }
 .text-perguntas h3{
     text-align:center;
     margin-bottom: 5%;
+    margin-top: 2%;
+    font-size: 70px;
+    
 }
 .titulo-perguntas{
     margin-top: 1%;
-    margin-left: 4%;
+    margin-left: 20%;
+    font-size: 60px;
 }
 .res{
     margin-top: 1%;
-    margin-left: 4%;
+    margin-left: 20%;
+    font-size: 50px;
 }
 
 /*duvidas e cuidados*/
@@ -181,8 +206,8 @@ header, .navbar{
     text-align: center;
     margin-top: 3%;
     margin-left: 46%;
-    font-size: 16px;
-    border-radius: 10px;
+    font-size: 100px;
+    border-radius: 20px;
     cursor: pointer;
     padding: 5px;
 }
@@ -193,8 +218,8 @@ header, .navbar{
     text-align: center;
     margin-top: 3%;
     margin-left: 46%;
-    font-size: 16px;
-    border-radius: 10px;
+    font-size: 100px;
+    border-radius: 20px;
     cursor: pointer;
     padding: 5px;
 }
@@ -214,7 +239,7 @@ hr{
 }
 .contato-titulo {
     text-align: center;
-    font-size: 25px;
+    font-size: 80px;
     margin-top: 1%;
 }
 
@@ -227,46 +252,57 @@ hr{
     margin-top: 10%;
 }
 .contato-box i {
-    font-size: 40px;
-    margin-bottom: 2%;
+    font-size: 200px;
+    margin-bottom: 3%;
     color: var(--cor-principal);
+}
+.contato-box h3{
+    font-size: 70px;
+}
+.contato-box p {
+    font-size: 60px;
 }
 
 /*Local*/
 .titulo{
-    margin-top: 15%;
+    margin-top: 10%;
     text-align: center;
-    font-size: 20px;
+    font-size: 70px;
     margin-bottom: 1%;
 }
 
 .mapa{
     max-width: 100%;
     text-align: center;
+    position: relative;
+    padding-bottom: 30%;
+    height: 0;
+    overflow: hidden;
+
 }
 .text-mapa{
     text-align: center;
-    font-size: 25px;
+    font-size: 60px;
     text-transform:bold ;
 }
 /*pagamentos*/
 .titulo-pagamentos{
-    margin-top: 5%;
     text-align: center;
-    font-size: 20px;
+    font-size: 80px;
+    padding-top: 5%;
 }
 .pagamentos{
     display: flex;
-    margin-top: 5%;
-    padding: 5%;
+    margin-top: 3%;
+    padding: 1%;
 }
 .cartao{
     margin: auto;
 }
 .cartao i{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 50%;
-    font-size: 50px;
+    font-size: 200px;
     color: var(--cor-principal);
 }
 .cartao p{
@@ -274,15 +310,16 @@ hr{
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
+    font-size: 60px;
+    margin:auto 10%;
 }
 .pix{
     margin: auto;
-    margin-left: 1%;
 }
 .pix i{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 45%;
-    font-size: 50px;
+    font-size: 200px;
     color: var(--cor-principal);
 }
 .pix p{
@@ -290,12 +327,14 @@ hr{
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
+    font-size: 60px;
+    margin:auto 10%;
 }
 
 /*copy*/
 .direitos{
     text-align: center;
-    font-size: 14px;
+    font-size: 50px;
     background-color: #000;
     color: rgba(255, 255, 255, 0.616);
     padding: 1%;
@@ -309,65 +348,270 @@ hr{
 }
 
 /*resposivo*/
-@media(max-width:768px){
-    header, .navbar{
-        width: 98%;
-        margin-left:0;
-        padding-left: 0;
-        border: 0;
+@media (max-width:768px){
+    .navbar{
+        height: 100px;
+        margin: auto;
     }
-    .nav-item {
-        margin: 0 5px;
-        
+    ul{
+        margin-top: -8%;
     }
-    .navbar-area a{
-        font-size: 16px;
+    nav ul{
+        margin-right:0px ;
+    }
+
+    .nav-item{
+     font-size: 10px;
+     
+    }
+    nav li{
+     margin: 0 4px;
+     
+     line-height: 0;
+    }
+    .banner-area{
+        height: 200px;
+    }
+    .banner-area h1{
+        font-size: 70px;
+    }
+    #main-title{
+        font-size: 50px;
+    }
+    .imagem-artista img{
+       width: 50%; 
+       margin: auto;
     }
     .about-title{
-        width: 90%;
-        margin: 1px auto;
-        margin-top: 10%;
+        width: 80%;
+        font-size: 30px;
+        margin-top: 1%;
+        margin: auto;
+    }
+    #galeria-area h3{
+        font-size: 50px;
+    }
+    .container-galeria{
+        margin: 200px auto;
+        width: 800px;
+        height: auto;
     }
     .container-galeria label{
-        font-size: 15px;
-        width: 170px;
+        font-size: 30px;
+        width: 93%;
     }
-   
-   #galeria img{
-        padding:2px ;
+    #galeria img{
+        width: 246px;
     }
-    .contato-titulo{
-        margin-top: 110%;
+    .titulo-video{
+        font-size: 50px;
+        margin-top: 310%;
     }
-    .contato-box{
-        margin-top: 5%;
-        margin: 3%;
-        text-align: center;
+    .videos iframe{
+        width: 500px;
+        height: 300px;
+        padding: 1%;
     }
-    .flex{
-        margin-top: 5%;
+    #titulo-duvidas{
+        font-size: 50px;
     }
-    .contato-box i{
+    .text-perguntas h3{
+        font-size: 40px;
+    }
+    .titulo-perguntas{
+        margin-left: 10%;
         font-size: 30px;
     }
+    .res{
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    #aparecer{
+        font-size: 30px;
+    }
+    #aparecer2{
+        font-size: 30px;
+    }
+    .contato-titulo{
+        font-size: 40px;
+    }
+    .flex{
+        display: block;
+    }
+    .contato-box i{
+        font-size: 90px;
+    }
     .contato-box h3{
+        font-size: 40px;
+    }
+    .contato-box p{
+        font-size: 30px;
+    }
+    .titulo{
+        font-size: 50px;
+    }
+    .text-mapa{
+        font-size: 30px;
+    }
+    .titulo-pagamentos{
+        font-size: 50px;
+    }
+    .cartao i {
+        font-size: 100px;
+        margin-left: 35%;
+    }
+    .cartao p{
+        font-size: 18px;
+        width: auto;
+    }
+    .pix i {
+        font-size: 100px;
+    }
+    .pix p {
+        font-size: 18px;
+        width: auto;
+    }
+    .direitos{
+        font-size: 30px;
+    }
+
+}
+@media(max-width:700px){
+    .navbar{
+        width: 515px;
+        height: 80px;
+        position: fixed;
+    }
+    .hamburguer{
+        padding: 12px;
+        display: block;
+        font-size: 80px;
+        border: 0;
+        margin-top: -1%;
+        margin: 0;
         text-align: center;
-        font-size: 16px;
+    }
+    .nav-item{
+        display: none;
+    }
+    .banner-area{
+        width: 515px;
+        height: 300px;
+    }
+    .banner-area h1{
+        font-size: 50px;
+        padding-top: 20%;
+    }
+    #main-title{
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+        margin-left: 65px;
+    }
+    .imagem-artista{
+        margin-left: 150px;
+    }
+    .about-title{
+        width: 80%;
+        font-size: 14px;
+        margin-left: 85px;
+    }
+    
+    #galeria-area h3{
+        font-size: 30px;
+        margin-left: 70px;
+        width: 100%;
+    }
+    .container-galeria{
+        width: 148%;
+    }
+    #galeria img{
+        width: 163px;
+    }
+    .titulo-video{
+        margin-top: 510%;
+        margin-left: 50%;
+    }
+    .videos{
+        width: 200%;
+        margin-left: -10px;
+    }
+    #titulo-duvidas{
+        font-size: 30px;
+        width: 100%;
+        margin-left: 20%;
+    }
+    .text-perguntas h3{
+        font-size: 25px;
+        margin-left: 40%; 
+    }
+    .titulo-perguntas{
+        width: 100%;
+        font-size: 20px;
+    }
+    .res{
+        width: 100%;
+        font-size: 15px;
+    }
+    #aparecer{
+        font-size: 20px;
+    }
+    #aparecer2{
+        font-size: 20px;
+    }
+    .contato-titulo{
+        font-size: 30px;
+        margin-left: 25%;
+    }
+    .contato-box i{
+        width: 100px;
+        margin-left: 65px;
+    }
+    .contato-box h3{
+        font-size: 30px;
+        margin-left: 65px;
     }
     .contato-box p {
-        font-size: 10px;
+        font-size: 20px;
+        margin-left: 65px;
     }
-    .mapgoogle {
-        width: 750px;
-        height: 600px;
+    .titulo{
+        font-size: 30px;
+        margin-left: 50px;
+        width: 100%;
     }
-} 
+    .text-mapa{
+        font-size: 15px;
+        width: 100%;
+        margin-left: 55px;
+    }
+    .titulo-pagamentos{
+        font-size: 30px;
+        margin-left:50px ;
+        width: 100%;
+    }
+    .cartao i{
+        width: 100px;
+    }
+    .cartao p{
+        width: 100%;
+        font-size: 11px;
+        margin-left: 1%;
+    }
+    .pix i{
+        width: 100px;
+    }
+    .pix p{
+        width: 90%;
+        font-size: 11px;
+        margin-right: 1%;
+    }
+    .direitos{
+        width: 140%;
+        font-size: 15px;
+    }
 
-@media(max-width:1440px){
-    .navbar a{
-        padding: 20px;
-    }
-    .mapgoogle{
-        width: 1290px;
-    }
+
+
+
 }
