@@ -185,12 +185,12 @@ nav li{
     
 }
 .titulo-perguntas{
-    margin-top: 1%;
+    margin-top: 3%;
     margin-left: 15%;
     font-size: 30px;
 }
 .res{
-    margin-top: 1%;
+    margin-top: 3%;
     margin-left: 15%;
     font-size: 20px;
 }
@@ -360,11 +360,11 @@ hr{
     }
 
     .nav-item{
-     font-size: 11px;
+     font-size: 12px;
     }
     nav li{
      margin: 0 4px;
-     
+     margin-top: 4%;
      line-height: 0;
     }
     .navbar{
@@ -403,6 +403,9 @@ hr{
     #main-title{
         font-size: 50px;
     }
+    .imagem-artista{
+        margin-left: 25%;
+    }
     .imagem-artista img{
        width: 50%; 
        margin: auto;
@@ -433,8 +436,8 @@ hr{
         margin-top: 310%;
     }
     .videos iframe{
-        width: 500px;
-        height: 300px;
+        width: 720px;
+        height: 500px;
         padding: 1%;
     }
     #titulo-duvidas{
@@ -444,12 +447,12 @@ hr{
         font-size: 40px;
     }
     .titulo-perguntas{
-        margin-left: 10%;
+        margin-left: 8%;
         font-size: 30px;
     }
     .res{
         font-size: 20px;
-        margin-left: 10%;
+        margin-left: 8%;
     }
     #aparecer{
         font-size: 30px;
