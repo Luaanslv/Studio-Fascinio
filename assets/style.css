@@ -734,13 +734,13 @@ hr{
 
     .navbar{
         margin-left: 40px;
-        margin-top: -2px;
+        margin-top: -1px;
         padding: 6px;
         height: 65px;
         width: 80%;
     }
     .navbar a{
-        font-size: 13px;
+        font-size: 11px;
     }
     .icon{
         font-size: 40px;
@@ -850,6 +850,7 @@ hr{
         border: 0px;
         border-left: 1px solid #000;
         border-radius: 0;
+        margin-left: 10px;
    }
    .direitos{
        width: 100%;
