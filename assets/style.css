@@ -153,7 +153,7 @@ nav li{
     margin-top: 210%;
     margin-bottom: 10%;
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
 }
 .videos{
     width: 100%;
@@ -181,7 +181,7 @@ nav li{
 }
 #titulo-duvidas{
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
 }
 .text-perguntas{
     margin-top: 5%;
@@ -192,18 +192,18 @@ nav li{
     text-align:center;
     margin-bottom: 5%;
     margin-top: 2%;
-    font-size: 50px;
+    font-size: 40px;
     
 }
 .titulo-perguntas{
     margin-top: 1%;
-    margin-left: 20%;
-    font-size: 40px;
+    margin-left: 15%;
+    font-size: 30px;
 }
 .res{
     margin-top: 1%;
-    margin-left: 20%;
-    font-size: 30px;
+    margin-left: 15%;
+    font-size: 20px;
 }
 
 /*duvidas e cuidados*/
@@ -218,7 +218,7 @@ nav li{
     text-align: center;
     margin-top: 3%;
     margin-left: 46%;
-    font-size: 40px;
+    font-size: 30px;
     border-radius: 20px;
     cursor: pointer;
     padding: 5px;
@@ -230,7 +230,7 @@ nav li{
     text-align: center;
     margin-top: 3%;
     margin-left: 46%;
-    font-size: 40px;
+    font-size: 30px;
     border-radius: 20px;
     cursor: pointer;
     padding: 5px;
@@ -318,7 +318,7 @@ hr{
     color: var(--cor-principal);
 }
 .cartao p{
-    text-align: justify;
+    text-align: center;
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
