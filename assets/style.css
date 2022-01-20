@@ -162,6 +162,18 @@ nav li{
     margin:auto;
     margin-left: 17%;
 }
+.text1{
+    text-align: center;
+    margin-right: 35%;
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+.text2{
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 1%;
+    font-size: 30px;
+}
 
 /*Duvidas*/
 #duvidas-area{
@@ -682,7 +694,13 @@ hr{
    .videos iframe{
        margin-left: 1%;
        width: 350px;
+       height: 300px;
    }
+   .text1{
+       margin-right: 50%;
+       margin-bottom: 0px;
+   }
+
    #titulo-duvidas{
        margin-left: 1%;
    }
