@@ -160,7 +160,7 @@ nav li{
     width: 100%;
     height:auto;
     margin:auto;
-    margin-left: 22%;
+    margin-left: 2%;
 }
 
 /*Duvidas*/
@@ -655,14 +655,19 @@ hr{
         margin-top: 1%;
         margin-left: 0%;
     }
+    .imagem-artista{
+        text-align: left;
+        margin: auto;
+        margin-left:30%;
+    }
     .imagem-artista img{
         width: 60%;
-        margin:auto;
-        text-align: left;
-        margin-left: -20%;
     }
     .about-title{
+        width: 46%;
+        font-size: 25px;
         margin-left: 10%;
+        
     }
    #galeria-area h3{
        margin-left: 1%;
