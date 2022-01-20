@@ -81,14 +81,13 @@ nav li{
     width:20%;
 }
 .about-title{
-    width:30%;
     margin: auto;
     margin-left: 42%;
     margin-top: -24%;
     border: 1px solid black;
     border-radius: 10px;
     padding: 2%;
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -760,4 +759,8 @@ hr{
    .direitos{
        width: 100%;
    }
+}
+
+@media(max-width:414px){
+    
 }
