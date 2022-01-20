@@ -643,7 +643,6 @@ hr{
         padding: 6px;
         height: 65px;
         width: 80%;
-        font-size: 10px;
     }
     .navbar a{
         font-size: 13px;
@@ -762,5 +761,26 @@ hr{
 }
 
 @media(max-width:414px){
-    
+    .navbar{
+        font-size: 10px;
+        height: 30px;
+        width: 80%;
+        margin-top:-1px ;
+    }
+    .navbar a{
+        font-size: 13px;
+    }
+    .icon{
+        font-size: 40px;
+    }
+    ul{
+        margin-top: -6%;
+    }
+    .banner-area{
+        height: 120px;
+        width: 100%;
+    }
+    .banner-area h1{
+        padding-top:2% ;
+    }
 }
