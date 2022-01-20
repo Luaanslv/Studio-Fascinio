@@ -858,6 +858,9 @@ hr{
     .navbar a{
         font-size: 11px;
     }
+    ul{
+        margin-top: 1px;
+    }
     .icon{
         font-size: 40px;
         position: fixed;
