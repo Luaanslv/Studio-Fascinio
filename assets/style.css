@@ -824,4 +824,52 @@ hr{
     .text2{
         margin-left: 70%;
     }
+    #titulo-duvidas{
+        margin-left: 1%;
+    }
+    .text-perguntas h3{
+        margin-left: 1%;
+    }
+    .titulo-perguntas{
+        margin-left: 1%;
+    }
+    .res{
+        margin-left: 1%;
+    }
+    .contato-titulo{
+        margin-left: 1%;
+    }
+    .contato-box I{
+        margin-left: 1%;
+    }
+    .contato-box H3{
+        margin-left: 1%;
+    }
+    .contato-box P{
+        margin-left: 1%;
+    }
+    .titulo{
+        margin-left: 1%;
+    }
+    .titulo-pagamentos{
+        margin-left: 1%;
+    }
+    .cartao i {
+        font-size: 50px;
+    }
+    .cartao p{
+        border: 0;
+    }
+    .pix i{
+        font-size: 50px;
+    }
+    .pix p{
+        border: 0px;
+        border-left: 1px solid #000;
+        border-radius: 0;
+        margin-left: 15px;
+    }
+    .direitos{
+        width: 100%;
+    }
 }
