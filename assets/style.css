@@ -878,7 +878,7 @@ hr{
     .imagem-artista{
         text-align: left;
         margin: auto;
-        margin-left:31%;
+        margin-left:35%;
     }
     .imagem-artista img{
         width: 60%;
@@ -894,6 +894,9 @@ hr{
    .container-galeria{
        width: 361px;
        margin: 100px auto;
+   }
+   .container-galeria label{
+    width: 94%;
    }
    #galeria img{
        width: 110px;
