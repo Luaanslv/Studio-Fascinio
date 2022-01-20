@@ -646,10 +646,11 @@ hr{
         margin: auto;
         align-items: center;
         text-align: center;
+        background-size: 100%;
     }
     .banner-area h1{
         font-size: 40px;
-        padding-top: 4%;
+        padding-top: 3%;
     }
     #main-title{
         margin-top: 1%;
@@ -658,14 +659,13 @@ hr{
     .imagem-artista{
         text-align: left;
         margin: auto;
-        margin-left:30%;
+        margin-left:20%;
     }
     .imagem-artista img{
         width: 60%;
     }
     .about-title{
-        width: 46%;
-        font-size: 25px;
+        font-size: 9px;
         margin-left: 10%;
         
     }
@@ -750,109 +750,3 @@ hr{
    }
 }
 
-@media(max-width:414px){
-    .navbar{
-        font-size: 10px;
-        height: 30px;
-        width: 80%;
-        margin-top:-1px ;
-    }
-    .navbar a{
-        font-size: 13px;
-    }
-    .icon{
-        font-size: 40px;
-    }
-    ul{
-        margin-top: -6%;
-    }
-    .banner-area{
-        height: 120px;
-        width: 100%;
-    }
-    .banner-area h1{
-        padding-top:2% ;
-    }
-    #main-title{
-        margin-left: 0;
-    }
-    .imagem-artista img{
-        margin-left: -10%;
-    }
-    .about-title{
-        margin-left: 9%;
-        font-size: 16px;
-    }
-    #galeria-area h3{
-        margin-left: 1%;
-    }
-    .container-galeria{
-        width: 110%;
-        margin: 90px auto;
-    }
-    .container-galeria label{
-        padding: 10px 10px;
-    }
-    #galeria img{
-        width: 130px;
-    }
-    .titulo-video{
-        margin-top: 330%;
-        margin-left: 1%;
-        margin-bottom: 15%;
-    }
-    .videos{
-        width: 100%;
-    }
-    .videos iframe{
-        width: 419px;
-    }
-    #titulo-duvidas{
-        margin-left: 1%;
-    }
-    .text-perguntas h3{
-        margin-left: 1%;
-    }
-    .titulo-perguntas{
-        margin-left: 1%;
-    }
-    .res{
-        margin-left: 1%;
-    }
-    .contato-titulo{
-        margin-left: 1%;
-    }
-    .contato-box I{
-        margin-left: 1%;
-    }
-    .contato-box H3{
-        margin-left: 1%;
-    }
-    .contato-box P{
-        margin-left: 1%;
-    }
-    .titulo{
-        margin-left: 1%;
-    }
-    .titulo-pagamentos{
-        margin-left: 1%;
-    }
-    .cartao i {
-        font-size: 50px;
-    }
-    .cartao p{
-        border: 0;
-    }
-    .pix i{
-        font-size: 50px;
-    }
-    .pix p{
-        border: 0px;
-        border-left: 1px solid #000;
-        border-radius: 0;
-        margin-left: 15px;
-    }
-    .direitos{
-        width: 100%;
-    }
-}
