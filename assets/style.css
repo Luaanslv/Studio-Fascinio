@@ -794,4 +794,34 @@ hr{
         margin-left: 9%;
         font-size: 16px;
     }
+    #galeria-area h3{
+        margin-left: 1%;
+    }
+    .container-galeria{
+        width: 110%;
+        margin: 90px auto;
+    }
+    .container-galeria label{
+        padding: 10px 10px;
+    }
+    #galeria img{
+        width: 130px;
+    }
+    .titulo-video{
+        margin-top: 330%;
+        margin-left: 1%;
+        margin-bottom: 15%;
+    }
+    .videos{
+        width: 100%;
+    }
+    .videos iframe{
+        width: 419px;
+    }
+    .text1{
+        margin-right: 100%;
+    }
+    .text2{
+        margin-left: 70%;
+    }
 }
