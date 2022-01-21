@@ -350,6 +350,23 @@ hr{
 }
 
 /*resposivo*/
+@media(max-width:1440px){
+    .banner-area{
+        height: 500px;
+    }
+    #main-title{
+        margin-bottom: 3%;
+    }
+    .container-galeria label{
+        width: 400px;
+    }
+    #galeria img{
+        width: 29%;
+    }
+    .titulo-video{
+        margin-top: 235%;
+    }
+}
 @media (max-width:768px){
     ul{
         margin-top: -4%;
@@ -828,15 +845,20 @@ hr{
     }
     .contato-box I{
         margin:auto;
+        font-size: 50px;
     }
     .contato-box H3{
         margin: auto;
+        font-size: 30px;
     }
     .contato-box P{
         margin: auto;
+        font-size: 20px;
     }
     .titulo{
         margin: auto;
+        margin-top: 10%;
+        font-size: 30px;
     }
     .text-mapa{
         margin: auto;
@@ -870,11 +892,14 @@ hr{
 @media(max-width:360px){
 
     .navbar{
-        margin-left: 40px;
+        margin-left: 1px;
         margin-top: -1px;
         padding: 6px;
         height: 60px;
         width: 80%;
+    }
+    .icon i{
+        font-size: 30px;
     }
     .navbar a{
         font-size: 11px;
@@ -959,9 +984,11 @@ hr{
    }
    .contato-box i{
        margin-left: 1%;
+       font-size: 50px;
    }
    .contato-box h3{
        margin-left: 1%;
+       font-size: 30;
    }
    .contato-box p{
        font-size: 18px;
@@ -969,6 +996,8 @@ hr{
    }
    .titulo{
        margin-left: 1%;
+       margin-top: 10%;
+       font-size: 30px;
    }
    .text-mapa{
        margin-left: 1%;
@@ -977,7 +1006,7 @@ hr{
        margin-left: 1%;
    }
    .cartao i {
-       font-size: 70px;
+       font-size: 50px;
        margin-top: 1%;
        text-align: left;
        margin-bottom: 3%;
@@ -988,7 +1017,7 @@ hr{
    }
 
    .pix i{
-        font-size: 70px;
+        font-size: 50px;
         margin-top: 1%;
         text-align: left;
         margin-bottom: 3%;
