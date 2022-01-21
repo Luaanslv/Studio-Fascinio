@@ -17,6 +17,7 @@
 
 body{
     background-color:rgba(250, 244, 244, 0.747);
+    overflow-x: hidden;
 }
 /*Menu*/
 .navbar{
@@ -108,7 +109,7 @@ nav li{
     margin-left: 10%;
 }
 .container-galeria label{
-    width: 470px;
+    width: 465px;
     padding: 30px 10px;
     font-size: 30px;
     display: block;
@@ -120,7 +121,7 @@ nav li{
 }
 #galeria img{
     float: left;
-    width: 480px;
+    width: 25%;
     padding: 5px;
     transition: all .4s;
 }
@@ -149,7 +150,7 @@ nav li{
 }
 /*videos*/
 .titulo-video{
-    margin-top: 210%;
+    margin-top: 220%;
     margin-bottom: 10%;
     text-align: center;
     font-size: 50px;
@@ -158,7 +159,7 @@ nav li{
     width: 100%;
     height:auto;
     margin:auto;
-    margin-left: 20%;
+    text-align: center;
 }
 
 /*Duvidas*/
@@ -271,12 +272,14 @@ hr{
 }
 
 .mapa{
-    max-width: 100%;
+    width: 100%;
+    margin: auto;
     text-align: center;
     position: relative;
     padding-bottom: 30%;
     height: 0;
     overflow: hidden;
+    align-items: center;
 
 }
 .text-mapa{
@@ -634,6 +637,7 @@ hr{
         height: 30px;
         width: 80%;
         margin-top:-1px ;
+        margin-left: 1px;
     }
     .navbar a{
         font-size: 13px;
@@ -654,8 +658,8 @@ hr{
     #main-title{
         margin-left: 0;
     }
-    .imagem-artista img{
-        margin-left: -10%;
+    .imagem-artista {
+        margin: auto;
     }
     .about-title{
         margin-left: 9%;
@@ -670,9 +674,10 @@ hr{
     }
     .container-galeria label{
         padding: 10px 10px;
+        width: 86%;
     }
     #galeria img{
-        width: 130px;
+        width: 129px;
     }
     .titulo-video{
         margin-top: 330%;
@@ -684,18 +689,22 @@ hr{
     }
     .videos iframe{
         width: 419px;
+        height: 200px;
     }
     #titulo-duvidas{
         margin-left: 1%;
     }
     .text-perguntas h3{
         margin-left: 1%;
+        margin-top:1%;
     }
     .titulo-perguntas{
         margin-left: 1%;
+        margin-top:1%;
     }
     .res{
         margin-left: 1%;
+        margin-top:1%;
     }
     .contato-titulo{
         margin-left: 1%;
@@ -731,15 +740,16 @@ hr{
         margin-left: 15px;
     }
     .direitos{
-        width: 100%;
+        width: 98%;
     }
 }
 @media(max-width:375px){
     .navbar{
         font-size: 10px;
         height: 30px;
-        width: 80%;
+        width: 79%;
         margin-top:-1px ;
+        margin: auto;
     }
     .navbar a{
         font-size: 11px;
@@ -758,81 +768,91 @@ hr{
         padding-top:2% ;
     }
     #main-title{
-        margin-left: 0;
+        text-align: center;
+        margin: auto;
+    }
+    .imagem-artista{
+        margin: auto;
     }
     .imagem-artista img{
-        margin-left: -15%;
+        width: 50%;
     }
     .about-title{
-        margin-left: 9%;
+        margin-left: 5%;
         font-size: 14px;
+        text-align: justify;
     }
     #galeria-area h3{
-        margin-left: 1%;
+        margin: auto;
+        margin-top: 10%;
     }
     .container-galeria{
-        width: 110%;
+        width: 100%;
         margin: 90px auto;
     }
     .container-galeria label{
         padding: 10px 10px;
-        width: 86%;
+        width: 94%;
     }
     #galeria img{
-        width: 117px;
+        width: 115px;
     }
     .titulo-video{
         margin-top: 330%;
-        margin-left: 1%;
+        margin: auto;
         margin-bottom: 15%;
     }
     .videos{
         width: 100%;
     }
     .videos iframe{
-        width: 380px;
+        width: 374px;
+        height: auto;
     }
     #titulo-duvidas{
-        margin-left: 1%;
+        margin: auto;
     }
     .text-perguntas h3{
-        margin-left: 1%;
+        margin: auto;
     }
-    .titulo-perguntas{
-        margin-left: 1%;
+    .titulo-perguntas{  
         margin-top: 4%;
         font-size: 18px;
     }
     .res{
-        margin-left: 1%;
+        margin: auto;
         margin-top: 4%;
     }
     .contato-titulo{
-        margin-left: 1%;
+        margin: auto;
     }
     .contato-box I{
-        margin-left: 1%;
+        margin:auto;
     }
     .contato-box H3{
-        margin-left: 1%;
+        margin: auto;
     }
     .contato-box P{
-        margin-left: 1%;
+        margin: auto;
     }
     .titulo{
-        margin-left: 1%;
+        margin: auto;
     }
     .text-mapa{
-        margin-left: 1%;
+        margin: auto;
+    }
+    .mapa iframe{
+        width: 100%;
     }
     .titulo-pagamentos{
-        margin-left: 1%;
+        margin: auto;
     }
     .cartao i {
         font-size: 50px;
     }
     .cartao p{
         border: 0;
+        padding: 0%;
     }
     .pix i{
         font-size: 50px;
@@ -841,10 +861,10 @@ hr{
         border: 0px;
         border-left: 1px solid #000;
         border-radius: 0;
-        margin-left: 15px;
+        padding: 0%;
     }
     .direitos{
-        width: 100%;
+        width: 98%;
     }
 }
 @media(max-width:360px){
