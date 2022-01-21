@@ -648,6 +648,130 @@ hr{
 
 
 }
+@media(max-width:428px){
+    .navbar{
+        font-size: 10px;
+        height: 30px;
+        width: 80%;
+        margin-top:-1px ;
+        margin-left: 1px;
+    }
+    .navbar a{
+        font-size: 13px;
+    }
+    .icon{
+        font-size: 40px;
+    }
+    ul{
+        margin-top: -6%;
+    }
+    .banner-area{
+        height: 110px;
+        width: 100%;
+    }
+    .banner-area h1{
+        padding-top:2% ;
+    }
+    #main-title{
+        margin-left: 0;
+    }
+    .imagem-artista {
+        margin: auto;
+    }
+    .about-title{
+        margin-left: 9%;
+        font-size: 16px;
+    }
+    #galeria-area h3{
+        margin-left: 1%;
+    }
+    .container-galeria{
+        width: 110%;
+        margin: 90px auto;
+    }
+    .container-galeria label{
+        padding: 10px 10px;
+        width: 86%;
+    }
+    #galeria img{
+        width: 133px;
+    }
+    .titulo-video{
+        margin-top: 330%;
+        margin-left: 1%;
+        margin-bottom: 15%;
+    }
+    .videos{
+        width: 100%;
+    }
+    .videos iframe{
+        width: 428px;
+        height: 200px;
+    }
+    #titulo-duvidas{
+        margin-left: 1%;
+        
+    }
+    .text-perguntas h3{
+        margin-left: 1%;
+        margin-top:1%;
+    }
+    .titulo-perguntas{
+        margin-left: 1%;
+        margin-top:3%;
+    }
+    .titulo-cuidados{
+        padding-top: 5%;
+    }
+    .res{
+        margin-left: 1%;
+        margin-top:4%;
+    }
+    .contato-titulo{
+        margin-left: 1%;
+    }
+    .contato-box I{
+        margin-left: 1%;
+        font-size: 50px;
+    }
+    .contato-box H3{
+        margin-left: 1%;
+        margin-top: -3%;
+    }
+    .contato-box P{
+        margin-left: 1%;
+    }
+    .titulo{
+        margin-left: 1%;
+    }
+    .text-mapa{
+        margin: auto;
+    }
+    .titulo-pagamentos{
+        margin-left: 1%;
+    }
+    .cartao i {
+        font-size: 50px;
+        margin-bottom: 1%;
+
+    }
+    .cartao p{
+        border: 0;
+    }
+    .pix i{
+        font-size: 50px;
+        margin-bottom: 1%;
+    }
+    .pix p{
+        border: 0px;
+        border-left: 1px solid #000;
+        border-radius: 0;
+        margin-left: 15px;
+    }
+    .direitos{
+        width: 98%;
+    }
+}
 @media(max-width:414px){
     .navbar{
         font-size: 10px;
@@ -924,9 +1048,10 @@ hr{
         padding-top: 3%;
     }
     #main-title{
-        margin-top: 1%;
+        margin-top: 5%;
         margin-left: 0%;
         font-size: 20px;
+        margin-bottom: 1%;
     }
     .imagem-artista{
         text-align: center;
@@ -969,6 +1094,7 @@ hr{
 
    #titulo-duvidas{
        margin-left: 1%;
+       margin-bottom: 10%;
    }
    .text-perguntas h3{
        margin-left: 1%;
@@ -978,6 +1104,9 @@ hr{
    }
    .res{
        margin-left: 1%;
+   }
+   .titulo-cuidados{
+       padding-top: 10%;
    }
    .contato-titulo{
        margin-left: 1%;
