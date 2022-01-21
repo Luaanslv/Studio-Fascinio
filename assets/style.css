@@ -125,6 +125,10 @@ nav li{
     padding: 5px;
     transition: all .4s;
 }
+#galeria img:hover{
+    transition: 0.1s;
+    transform: translateX(9px) scale(1.2);
+}
 .container-galeria input:checked + label{
     background-color: var(--cor-principal);
 }
@@ -404,6 +408,7 @@ hr{
         padding: 20px;
         margin-left: 60px;
         margin-top: 10px;
+        transition: .5s;
         display: none;
     }
     .nav-item a{
