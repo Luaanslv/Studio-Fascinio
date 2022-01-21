@@ -105,7 +105,7 @@ nav li{
 .container-galeria{
     width: 100%;
     height: auto;
-    margin: 200px auto;
+    margin: 100px auto;
     margin-left: 10%;
 }
 .container-galeria label{
@@ -150,7 +150,7 @@ nav li{
 }
 /*videos*/
 .titulo-video{
-    margin-top: 220%;
+    margin-top: 210%;
     margin-bottom: 10%;
     text-align: center;
     font-size: 50px;
@@ -260,7 +260,7 @@ hr{
     font-size: 40px;
 }
 .contato-box p {
-    font-size: 20px;
+    font-size: 20px; 
 }
 
 /*Local*/
@@ -365,6 +365,19 @@ hr{
     }
     .titulo-video{
         margin-top: 235%;
+    }
+}
+@media(max-width:1280px) {
+    .container-galeria{
+        text-align: center;
+        padding-top: 4%;
+        width: 90%;
+    }
+    .container-galeria label{
+        width: 323px;
+    }
+    .titulo-video{
+        margin-top: 210%;
     }
 }
 @media (max-width:768px){
