@@ -884,6 +884,11 @@ hr{
         width: 98%;
     }
 }
+@media(max-width:390px){
+    .about-title{
+        font-size: 15px;
+    }
+}
 @media(max-width:375px){
     .navbar{
         font-size: 10px;
