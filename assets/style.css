@@ -74,17 +74,15 @@ nav li{
     margin-top: 5%;
     margin-bottom: 5%;
     width: 100%;
-    text-align: left;
-    margin-left: 9%;
+    margin: auto 10%;
 }
 .imagem-artista img{
     width:20%;
 }
 .about-title{
-    margin: auto;
-    margin-left: 30%;
+    margin: auto 31%;
+    margin-top: -15%;
     width: 45%;
-    margin-top: -24%;
     border: 1px solid black;
     border-radius: 10px;
     padding: 2%;
@@ -360,7 +358,7 @@ hr{
     }
 
     .nav-item{
-     font-size: 12px;
+     font-size: 14px;
     }
     nav li{
      margin: 0 4px;
@@ -368,7 +366,7 @@ hr{
      line-height: 0;
     }
     .navbar{
-        width: 600px;
+        width: 650px;
         height: 10px;
         padding: 20px;
         margin-left: 60px;
@@ -404,7 +402,8 @@ hr{
         font-size: 50px;
     }
     .imagem-artista{
-        margin-left: 25%;
+        margin: auto;
+        text-align: center;
     }
     .imagem-artista img{
        width: 50%; 
@@ -413,7 +412,6 @@ hr{
     .about-title{
         width: 80%;
         font-size: 30px;
-        margin-top: 1%;
         margin: auto;
     }
     #galeria-area h3{
@@ -435,8 +433,11 @@ hr{
         font-size: 50px;
         margin-top: 310%;
     }
+    .videos{
+        margin: auto;
+    }
     .videos iframe{
-        width: 720px;
+        width: 750px;
         height: 500px;
         padding: 1%;
     }
@@ -447,12 +448,12 @@ hr{
         font-size: 40px;
     }
     .titulo-perguntas{
-        margin-left: 8%;
+        margin:auto;
         font-size: 30px;
     }
     .res{
         font-size: 20px;
-        margin-left: 8%;
+        margin: auto;
     }
     #aparecer{
         font-size: 30px;
@@ -880,19 +881,23 @@ hr{
     #main-title{
         margin-top: 1%;
         margin-left: 0%;
+        font-size: 20px;
     }
     .imagem-artista{
-        text-align: left;
+        text-align: center;
         margin: auto;
-        margin-left:35%;
     }
     .imagem-artista img{
         width: 60%;
+       display: block;
+       margin: auto;
+        
     }
     .about-title{
         font-size: 9px;
-        margin-left: 10%;
-        
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
     }
    #galeria-area h3{
        margin-left: 1%;
@@ -902,7 +907,7 @@ hr{
        margin: 100px auto;
    }
    .container-galeria label{
-    width: 94%;
+    width: 93%;
    }
    #galeria img{
        width: 110px;
@@ -913,7 +918,7 @@ hr{
    }
    .videos iframe{
        margin-left: 1%;
-       width: 366px;
+       width: 360px;
        height: 220px;
    }
 
@@ -924,7 +929,7 @@ hr{
        margin-left: 1%;
    }
    .titulo-perguntas{
-    margin-left: 3%;
+    margin-left: 1%;
    }
    .res{
        margin-left: 1%;
@@ -954,7 +959,7 @@ hr{
    .cartao i {
        font-size: 70px;
        margin-top: 1%;
-       margin: 0 35% ;
+       text-align: left;
        margin-bottom: 3%;
    }
    .cartao p{
@@ -965,17 +970,17 @@ hr{
    .pix i{
         font-size: 70px;
         margin-top: 1%;
-        margin: 0 40%;
+        text-align: left;
         margin-bottom: 3%;
    }
    .pix p{
         border: 0px;
         border-left: 1px solid #000;
         border-radius: 0;
-        margin-left: 10px;
+        margin: 0 10px;
    }
    .direitos{
-       width: 100%;
+       width: 98%;
    }
 }
 
