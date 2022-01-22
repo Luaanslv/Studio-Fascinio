@@ -1437,8 +1437,32 @@ hr{
     }
 }
 @media(max-width:390px){
+    .navbar{
+        width: 90%;
+        margin: auto;
+    }
+    .navbar a{
+        margin: auto 5px;
+        font-size: 12px;
+    }
     .about-title{
         font-size: 15px;
+    }
+    #titulo-duvidas{
+        margin: auto;
+    }
+    .text-perguntas h3{
+        margin: auto;
+    }
+    .titulo-perguntas{  
+        margin-top: 4%;
+        font-size: 18px;
+    }
+    .res{
+        margin: auto;
+        margin-top: 4%;
+        text-align: justify;
+        font-size: 11px;
     }
 }
 @media(max-width:375px){
@@ -1577,14 +1601,14 @@ hr{
         margin-top: -1px;
         padding: 6px;
         height: 65px;
-        width: 80%;
+        width: 90%;
     }
     .icon i{
         font-size: 30px;
     }
     .navbar a{
         font-size: 11px;
-        margin-left: 10px;
+        margin-left: 11px;
     }
     ul{
         margin-top: 1px;
@@ -1657,13 +1681,14 @@ hr{
        margin-bottom: 10%;
    }
    .text-perguntas h3{
-    margin: auto;
+    margin: 10% auto;
    }
    .titulo-perguntas{
-    margin: auto;
+    margin: 3% auto;
+    
    }
    .res{
-       margin: auto;
+       margin: 2% auto;
    }
    .titulo-cuidados{
        padding-top: 10%;
