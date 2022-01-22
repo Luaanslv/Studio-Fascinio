@@ -1575,7 +1575,7 @@ hr{
         margin-left: 1px;
         margin-top: -1px;
         padding: 6px;
-        height: 60px;
+        height: 65px;
         width: 80%;
     }
     .icon i{
@@ -1583,6 +1583,7 @@ hr{
     }
     .navbar a{
         font-size: 11px;
+        margin-left: 5px;
     }
     ul{
         margin-top: 1px;
@@ -1592,7 +1593,7 @@ hr{
         position: fixed;
     }
     .banner-area{
-        width: 100%;
+        width: 110%;
         height: 85px;
         margin: auto;
         align-items: center;
@@ -1629,14 +1630,14 @@ hr{
        margin-left: 1%;
    }
    .container-galeria{
-       width: 361px;
+       width: 400px;
        margin: 100px auto;
    }
    .container-galeria label{
-    width: 93%;
+    width: 97%;
    }
    #galeria img{
-       width: 110px;
+       width: 125px;
    }
    .titulo-video{
        margin-top: 350%;
