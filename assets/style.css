@@ -13,10 +13,11 @@
     padding: 0%;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
+
 }
 
 body{
-    background-color:rgba(250, 244, 244, 0.747);
+    background-color:rgba(250, 244, 244, 0.747);overflow-x: hidden;
     overflow-x: hidden;
 }
 /*Menu*/
@@ -1583,7 +1584,7 @@ hr{
     }
     .navbar a{
         font-size: 11px;
-        margin-left: 5px;
+        margin-left: 10px;
     }
     ul{
         margin-top: 1px;
@@ -1593,7 +1594,7 @@ hr{
         position: fixed;
     }
     .banner-area{
-        width: 110%;
+        width: 98%;
         height: 85px;
         margin: auto;
         align-items: center;
@@ -1627,69 +1628,74 @@ hr{
         margin-top: 5%;
     }
    #galeria-area h3{
-       margin-left: 1%;
+       margin: auto;
    }
    .container-galeria{
        width: 400px;
        margin: 100px auto;
    }
    .container-galeria label{
-    width: 97%;
+        width: 82%;
+        margin: auto;
    }
    #galeria img{
-       width: 125px;
+       width: 113px;
+       margin: auto;
    }
    .titulo-video{
        margin-top: 350%;
-       margin-left: 10%;
+       margin: auto;
    }
    .videos iframe{
-       margin-left: 1%;
-       width: 360px;
+        margin: auto;
+       width: 350px;
        height: 220px;
    }
 
    #titulo-duvidas{
-       margin-left: 1%;
+        margin: auto;
        margin-bottom: 10%;
    }
    .text-perguntas h3{
-       margin-left: 1%;
+    margin: auto;
    }
    .titulo-perguntas{
-    margin-left: 1%;
+    margin: auto;
    }
    .res{
-       margin-left: 1%;
+       margin: auto;
    }
    .titulo-cuidados{
        padding-top: 10%;
    }
    .contato-titulo{
-       margin-left: 1%;
+    margin: auto;
    }
    .contato-box i{
-       margin-left: 1%;
+        margin: auto;
        font-size: 50px;
    }
    .contato-box h3{
-       margin-left: 1%;
-       font-size: 30;
+        margin: auto;
+        font-size: 30;
    }
    .contato-box p{
        font-size: 18px;
-       margin-left: 1%;
+       margin: auto;
    }
    .titulo{
-       margin-left: 1%;
-       margin-top: 10%;
+        margin: auto;
+        margin-top: 10%;
        font-size: 30px;
    }
+   .mapa{
+       width: 350px;
+   }
    .text-mapa{
-       margin-left: 1%;
+        margin: auto;
    }
    .titulo-pagamentos{
-       margin-left: 1%;
+    margin: auto;
    }
    .cartao i {
        font-size: 50px;
@@ -1698,7 +1704,7 @@ hr{
        margin-bottom: 3%;
    }
    .cartao p{
-       margin-left: 1%;
+      margin: auto;
        border: 0ch;
    }
 
