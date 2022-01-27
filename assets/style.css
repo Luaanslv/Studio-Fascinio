@@ -385,6 +385,66 @@ hr{
         margin-top: 210%;
     }
 }
+@media(max-width:992px){
+    .nav-item{
+        font-size: 14px;
+        justify-content: center;
+    }
+    ul{
+        margin: auto ;
+        width: 100%;
+    }
+    .banner-area{height: 400px;}
+    .imagem-artista{margin-top: 10%;}
+    .about-title{ 
+        margin-top: -21%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .container-galeria h3{
+        margin-bottom: 10px;
+    }
+    .container-galeria{
+        width: 100%;
+        margin: auto;
+    }
+    .container-galeria label{
+        width: 31%;
+    }
+    #galeria img{
+        width: 32%;
+    }
+    .titulo-video{
+        margin-top: 250%;
+    }
+    .videos iframe{
+        width: 800px;
+    }
+    .text-perguntas{
+        margin: auto;
+    }
+    .titulo-perguntas{
+        margin: auto;
+        margin-top: 1%;
+    }
+    .res{
+        margin:auto;
+        margin-top: 1%;
+    }
+    .contato-box{margin: 30px auto;}
+    .contato-box i{
+        font-size: 40px;
+    }
+    .contato-box h3{
+        font-size: 30px;
+    }
+    .contato-box p{
+        font-size: 15px;
+    }
+    .pagamentos i{
+        font-size: 40px;
+    }
+}
 @media (max-width:768px){
     ul{
         margin-top: -4%;
