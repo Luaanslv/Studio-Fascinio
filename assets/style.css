@@ -387,7 +387,7 @@ hr{
 }
 @media(max-width:992px){
     .nav-item{
-        font-size: 14px;
+        font-size: 20px;
         justify-content: center;
     }
     ul{
@@ -859,140 +859,6 @@ hr{
     .direitos{
         width: 107%;
     }
-}
-@media (max-width:500px) {
-    .navbar{
-        font-size: 10px;
-        height: 30px;
-        width: 60%;
-        margin-top:-1px ;
-        margin-left: 1px;
-    }
-    .navbar a{
-        font-size: 13px;
-    }
-    .icon{
-        font-size: 30px;
-    }
-    ul{
-        margin-top: -6%;
-    }
-    .banner-area{
-        height: 135px;
-        width: 105%;
-    }
-    .banner-area h1{
-        padding-top:2% ;
-    }
-    #main-title{
-        margin-left: 0;
-    }
-    .imagem-artista {
-        margin: auto;
-    }
-    .about-title{
-        margin-left: 9%;
-        font-size: 12px;
-    }
-    #galeria-area h3{
-        margin-left: 1%;
-    }
-    .container-galeria{
-        max-width: 100%;
-        margin: auto;
-    }
-    .container-galeria label{
-        padding: 10px 10px;
-        width: 95%;
-        text-align: center;
-    }
-    #galeria img{
-        width: 29%;
-        padding: 1px;
-        margin-left: 4px;
-    }
-    .titulo-video{
-        margin-top: 330%;
-        margin-left: 1%;
-        margin-bottom: 15%;
-    }
-    .videos{
-        width: 100%;
-    }
-    .videos iframe{
-        width: 550px;
-        height: 300px;
-        margin: auto;
-    }
-    #titulo-duvidas{
-        margin: auto;
-        
-    }
-    .text-perguntas h3{
-        margin: auto;
-        margin-top:1%;
-    }
-    .titulo-perguntas{
-        margin: auto;
-        margin-top:3%;
-    }
-    .titulo-cuidados{
-        padding-top: 5%;
-    }
-    .res{
-        margin: auto;
-        margin-top:4%;
-    }
-    .contato-titulo{
-        margin: auto;
-    }
-    .contato-box I{
-        margin: auto;
-        font-size: 50px;
-        margin-bottom: 4%;
-    }
-    .contato-box H3{
-        margin: auto;
-        margin-top: -3%;
-    }
-    .contato-box P{
-       margin: auto;
-    }
-    .titulo{
-        margin: auto;
-    }
-    .mapa{
-        margin: auto;
-        width: 110%;
-    }
-    .text-mapa{
-        margin: auto;
-    }
-    .titulo-pagamentos{
-        margin-left: 1%;
-    }
-    .cartao i {
-        font-size: 50px;
-        margin-bottom: 1%;
-
-    }
-    .cartao p{
-        border: 0;
-    }
-    .pix i{
-        font-size: 50px;
-        margin-bottom: 1%;
-    }
-    .pix p{
-        border: 0px;
-        border-left: 1px solid #000;
-        border-radius: 0;
-        margin-left: 15px;
-    }
-    .direitos{
-        width: 107%;
-    }
-
 }
 @media (max-width:530px) {
     .navbar{
