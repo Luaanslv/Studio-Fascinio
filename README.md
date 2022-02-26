@@ -5,5 +5,6 @@ Site desenvolvido para mostrar o trabalho de tatuagens e micropigmentações.
 <ul>
   <li>Html</li>
   <li>Css</li>
-  <li>javascript<li/>
+  <li>javascript</li>
   <li>FontAwesome</li>
+</ul>
