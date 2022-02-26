@@ -1,7 +1,7 @@
 # Studio-Fascinio
 Site desenvolvido para mostrar o trabalho de tatuagens e micropigmentações.
-
-## Tecnlogias utilizadas
+## Link do site: https://sad-galileo-f22b7f.netlify.app/
+### Tecnlogias utilizadas
 <ul>
   <li>Html</li>
   <li>Css</li>
